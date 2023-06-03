@@ -25,7 +25,7 @@ def test_screen_caption():
 def test_exist_one_ball():
     bolas = Bolas()
 
-    assert isinstance(bolas.player, Ball)
-    assert bolas.player.x == 400
-    assert bolas.player.y == 300
-    assert bolas.player.radio == 30
+    assert isinstance(bolas.players[0], Ball)
+    assert bolas.players[0].x == 150
+    assert bolas.players[0].y == 150
+    assert bolas.players[0].radio == 15
